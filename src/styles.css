@@ -1,0 +1,8 @@
+@mixin my-mixin($color, $size) {
+  background-color: $color;
+  font-size: $size;
+}
+
+.btn {
+  @apply my-mixin(#000, 16px);
+}
